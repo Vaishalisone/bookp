@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+nav{
+	width: 100%;
+	height:50px;
+	background: white;
+	color: black;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1px 80px;
+	position:fixed;
+	top:0;
+	background:white;
+
+
+}
+.logo{
+	font-family: sans-serif;
+	font-size:2.5em;
+}
+.logo span{
+	color: #0c0909;
+}
+.menu a{
+	text-decoration: none;
+	color: black;
+	font-size:20px;
+	
+	padding: 10px 20px;
+	font-family: sans-serif;
+}
+
+.menu a:hover{
+	color: #e74c3c;
+	transition: 0.4s;
+}
+.search{
+  
+   padding: 10px;
+	background:grey;
+	color:grey;
+    text-decoration: none;
+	margin-left: 80px;
+	border-radius: 20px;
+}
+.navbar input{
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 3px 17px;
+    width: 100px;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding:1px 50px;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    color:rgb(29, 29, 11);
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 4rem;
+}
+
+#home p{
+    color:grey;
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: blue;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor:pointer;
+}
+#services{
+    margin: 34px;
+    display: flex;
+    opacity: 1;
+}
+ #services-container h1{
+    color:black;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+}
+#services-container h2{
+    color: blue;
+    text-align: left;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+#services-container p{
+    color:black;
+   
+    font-size: 2rem;
+
+} 
+#services .box{ 
+    border: red;
+    padding: 34px;
+    margin: 2px 55px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    width:800px;
+    height: 350px;
+    opacity: 1;
+    object-fit:cover;
+
+}
+
+#services .box img{ 
+   height: 350px;
+ width:600px;
+ margin: auto;
+ opacity: 1;
+ object-fit:cover;
+   
+}
+  #services box img:hover{
+      opacity: 1;
+      object-fit:cover;
+  }
+
+
+
+
+
+
+#services .box1{ 
+    border: yellow;
+    padding: 38px;
+    margin: 2px;
+    border-radius: 28px;
+    background: #f2f2f2;
+    margin-bottom: 10px;
+    width:500px;
+    height: 250px;
+    padding: 50px;
+}
+
+#services .box1 p{
+font-family: 'Bree Serif', serif;
+
+} 
+/*  logo */
+
+#client-sec{ 
+    position: relative;
+
+  
+}
+#clientss{
+    display: flex;
+    justify-content: right;
+    align-items: right;
+
+}
+.client-item{
+    padding: 10px;
+}
+
+#clientss img{
+    height: 150px;
+    border-radius: 30%;
+    padding: 10px;
+}
+
+
+
+
+
+/* feature*/
+
+#client-section h1{
+    color:WHITE;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 3rem;
+
+    background-color: solid #00008B;
+
+}
+
+#client-section h3{
+    color:WHITE;
+}
+#client-section{ 
+    position: relative;
+
+ 
+    background-color: #00008B;
+    border-radius: 29px;
+    float: left;
+}
+#clients{
+    display: flex;
+    justify-content: center;
+   
+  
+    background-color: #00008B;
+ 
+    float: left;
+
+}
+.client-item{
+    padding: 34px;
+   
+    float: left;
+}
+
+#clients img{
+    height: 230px;
+    border-radius: 100%;
+    background-color: #00008B;
+    float: left;
+    
+}
+
+
+
+/* second ilknkh*/
+
+
+#client-sect h3{
+    color:WHITE;
+}
+#client-sect{ 
+    position: relative;
+    background-color: #00008B;
+    border-radius: 28px;
+ 
+}
+#clientsss{
+    display: flex;
+    justify-content: left;
+  
+  
+    background-color: #00008B;
+   
+    float: left;
+
+}
+.client-ite{
+    padding: 34px;
+   
+    float:left;
+}
+
+#clientsss img{
+    height: 220px;
+    border-radius: 100%;
+    background-color: #00008B;
+    float: left;
+}
+
+
+
